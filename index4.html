@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <!-- <h1 id="h1"></h1>
+    <button onclick='time()'>click me</button> -->
+
+    <input type="text" onkeypress="keypress()">
+
+    <h1 id="h1" onmouseenter="enter()" onmouseleave="leave()">HEllo Class</h1>
+
+<img src="../beautiful_1203-2633.avif" alt="" id="img" onmouseenter="onenter()">
+
+    <script>
+
+        function keypress(){
+            document.getElementsByTagName('input')[0].style.backgroundColor= 'red'
+        }
+
+ function onenter(){
+    document.getElementById('img').style.width="400px"
+ }
+
+function enter(){
+const a = document.getElementById('h1')
+a.style.fontFamily="cursive"
+a.style.color="red"
+
+}
+function leave(){
+   const a =  document.getElementById('h1')
+   a.style.fontFamily="sans-serif"
+    a.style.color="black"
+}
+ 
+
+
+// function time(){
+//     document.getElementById('h1').innerHTML=  new Date().toLocaleTimeString();
+// }
+
+//  setInterval(time, 1000)
+
+// console.log(a)
+    // const a = document.createElement('h1')
+// const b = document.createTextNode('this is last class')
+//  a.appendChild(b)
+//  document.body.appendChild(a)
+
+// const img = document.createElement('img')
+// const att = document.createAttribute('src')
+
+// att.value = "../media/download (1).jpeg"
+// img.setAttributeNode(att)
+
+// console.log(att)
+
+// console.log(img)
+// document.body.appendChild(img)
+
+// console.log(c)
+// console.log(a)
+// console.log(b)
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
